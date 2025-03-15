@@ -1,87 +1,68 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #1e1e1e;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Arial', sans-serif;
-    box-sizing: border-box;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Arial", sans-serif;
 }
 
 main {
-    background: #303030;
-    width: 320px;
-    border-radius: 16px;
-    padding: 25px;
-    gap: 10px;
-    color: #ffffff;
-}
-/* Estilos generales */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: inherit;
-}
+  background-color: #303030;
+  width: 320px;
+  border-radius: 16px;
+  padding: 25px;
 
-body {
-    background: #1e1e1e;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'Arial', sans-serif;
-    box-sizing: border-box;
-}
-
-.card {
-    background: #303030;
-    width: 320px;
-    border-radius: 16px;
-    padding: 25px;
-    gap: 10px;
-    color: #ffffff;
+  gap: 10px;
+  color: white;
 }
 
 .encabezado h1 {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 .encabezado p {
-    color: #b3b3b3;
-    font-size: 18px;
+  color: #b3b3b3;
+  font-size: 18px;
 }
 
 .superior {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.icono img {
+  width: 24px;
+  border-radius: 50%;
+  float: right;
 }
 
 .detalle {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    text-align: start;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.estadistica {
-    font-size: 14px;
-    color: #30925a;
-    display: flex;
-    align-items: center;
+.detalle .estadistica {
+  color: #30925a;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }
 
-.subtexto {
-    font-size: 12px;
-    color: #908d8d;
+.detalle .subtexto {
+  font-size: 12px;
+  color: #908d8d;
 }
 
 .estadistica::before {
-    margin-right: 4px;
+  margin-right: 4px;
 }
